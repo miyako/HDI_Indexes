@@ -1,0 +1,87 @@
+{
+	"destination": "listScreen",
+	"rightMargin": 0,
+	"bottomMargin": 20,
+	"markerBody": 20,
+	"markerBreak": 20,
+	"markerFooter": 20,
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Image9": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 300,
+					"height": 20,
+					"visibility": "selectedRows",
+					"pictureFormat": "scaled",
+					"picture": "Images/Image9.png"
+				},
+				"Champ1": {
+					"type": "input",
+					"top": 2,
+					"left": 3,
+					"width": 280,
+					"height": 16,
+					"visibility": "unselectedRows",
+					"sizingX": "grow",
+					"dataSource": "[COMPANIES:1]Name:2",
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 13,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Champ2": {
+					"type": "input",
+					"top": 1,
+					"left": 3,
+					"width": 280,
+					"height": 18,
+					"visibility": "selectedRows",
+					"sizingX": "grow",
+					"dataSource": "[COMPANIES:1]Name:2",
+					"stroke": "#000000",
+					"fontFamily": "Helvetica Bold",
+					"fontSize": 15,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "Vue 1",
+		"defaultView": "Vue 1",
+		"views": {
+			"Vue 1": {},
+			"Vue 2": {},
+			"Vue 3": {},
+			"Vue 4": {},
+			"Vue 5": {},
+			"Vue 6": {},
+			"Vue 7": {},
+			"Vue 8": {},
+			"Vue 9": {}
+		}
+	}
+}

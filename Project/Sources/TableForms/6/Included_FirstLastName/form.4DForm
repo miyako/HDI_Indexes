@@ -1,0 +1,105 @@
+{
+	"destination": "listScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerBody": 20,
+	"markerBreak": 20,
+	"markerFooter": 20,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Image2": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 400,
+					"height": 20,
+					"pictureFormat": "tiled",
+					"picture": "Images/Image2.png"
+				},
+				"Champ1": {
+					"type": "input",
+					"top": 2,
+					"left": 3,
+					"width": 150,
+					"height": 16,
+					"dataSource": "[CONTACTS:6]LastName:3",
+					"stroke": "#000000",
+					"class": "Default",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Champ3": {
+					"type": "input",
+					"top": 2,
+					"left": 158,
+					"width": 74,
+					"height": 16,
+					"dataSource": "[CONTACTS:6]FirstName:4",
+					"stroke": "#000000",
+					"class": "Default",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "Vue 1",
+		"defaultView": "Vue 1",
+		"views": {
+			"Vue 1": {},
+			"Vue 2": {},
+			"Vue 3": {},
+			"Vue 4": {},
+			"Vue 5": {},
+			"Vue 6": {},
+			"Vue 7": {},
+			"Vue 8": {},
+			"Vue 9": {}
+		}
+	}
+}

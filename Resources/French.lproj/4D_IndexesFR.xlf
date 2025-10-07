@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--                             			Translation file for 4D products.			Copyright (c) 4D SA, 1985-2006. All right reserved.			This file is distributed under the same license as the 4D product package.<!DOCTYPE  xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">-->
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+   <file build-num="9.0" datatype="x-STR#" date="2006-04-20T12:13:41Z" original="4th Dimension" product-name="4th Dimension" product-version="2007" source-language="en-US" target-language="fr">
+      <header>
+         <prop-group name="Xliff-Editor.4dbase">
+            <prop prop-type="version">1.0</prop>
+         </prop-group>
+      </header>
+      <body>
+         <group id="M00" resname="MenusDemo">
+            <trans-unit id="M0_1" resname="MenusDemo_IndexesDemo">
+               <source>Indexes Demo</source>
+               <target>Démo index</target>
+            </trans-unit>
+            <trans-unit id="61" resname="MenusDemo_CloseWindow">
+               <source>Close Window</source>
+               <target>Fermer la fenêtre</target>
+            </trans-unit>
+         </group>
+         <group id="G00" resname="Page0">
+            <trans-unit id="P0_1" resname="Page0_Function">
+               <source>Function</source>
+               <target>Fonction</target>
+            </trans-unit>
+            <trans-unit id="P0_2" resname="Page0_Informations">
+               <source>Information</source>
+               <target>Informations</target>
+            </trans-unit>
+            <trans-unit id="P0_3" resname="Page0_StructureAndGeneration">
+               <source>Structure and generation of data</source>
+               <target>Structure et génération de données</target>
+            </trans-unit>
+            <trans-unit id="P0_4" resname="Page0_BTreeIndexCreation">
+               <source>&quot;B-Tree&quot; type index - Creation</source>
+               <target>Index de type &quot;B-Tree&quot; - Creation</target>
+            </trans-unit>
+            <trans-unit id="P0_5" resname="Page0_BTreeIndexDemo">
+               <source>&quot;B-Tree&quot; type index - Demonstration</source>
+               <target>Index de type &quot;B-Tree&quot; - Démonstration</target>
+            </trans-unit>
+            <trans-unit id="P0_6" resname="Page0_ClusterIndexCreation">
+               <source>&quot;Cluster&quot; type index - Creation</source>
+               <target>Index de type &quot;Cluster&quot; - Création</target>
+            </trans-unit>
+            <trans-unit id="P0_7" resname="Page0_ClusterIndexDemo">
+               <source>&quot;Cluster&quot; type index - Demonstration</source>
+               <target>Index de type &quot;Cluster&quot; - Démonstration</target>
+            </trans-unit>
+            <trans-unit id="P0_8" resname="Page0_CoompositeIndexCreation">
+               <source>&quot;Composite&quot; type index - Creation</source>
+               <target>Index de type &quot;Composite&quot; - Création</target>
+            </trans-unit>
+            <trans-unit id="P0_9" resname="Page0_CoompositeIndexDemo">
+               <source>&quot;Composite&quot; type index - Demonstration</source>
+               <target>Index de type &quot;Composite&quot; - Démonstration</target>
+            </trans-unit>
+            <trans-unit id="P0_10" resname="Page0_KeywordsIndexCreation">
+               <source>&quot;Keywords&quot; type index - Creation</source>
+               <target>Index de type &quot;Mots-clés&quot; - Création</target>
+            </trans-unit>
+            <trans-unit id="P0_11" resname="Page0_KeywordsIndexDemo">
+               <source>&quot;Keywords&quot; type index - Demonstration</source>
+               <target>Index de type &quot;Mots-clés&quot; - Démonstration</target>
+            </trans-unit>
+         </group>
+         <group id="G01" resname="Page1">
+            <trans-unit id="P1_1" resname="Page1_TextInfos">
+               <source>This database shows an example of a very simple database structure containing only two tables: Companies and Contacts.
+
+Each table includes a certain number of fields with different types that may or may not be indexed in order to optimize queries and sorts.
+
+You can randomly generate additional companies and contacts if you so desire.</source>
+               <target>Cette base montre un exemple de structure de base de données très simple faisant intervenir deux tables : Sociétés et contacts.
+
+Chaque table comporte un certain nombre de champs de types différents qui seront ou non indexés afin d&apos;optimiser les recherches et les tris.
+
+Vous pouvez générer aléatoirement des sociétés et des contacts supplémentaires si vous le désirez.</target>
+            </trans-unit>
+            <trans-unit id="P1_2" resname="Page1_NumberOfCompanies">
+               <source>Number of companies:</source>
+               <target>Nombre de sociétés :</target>
+            </trans-unit>
+            <trans-unit id="P1_3" resname="Page1_NumberOfContacts">
+               <source>Number of contacts:</source>
+               <target>Nombre de contacts :</target>
+            </trans-unit>
+            <trans-unit id="P1_5" resname="Page1_NumberOfCompaniesToBeGenerated">
+               <source>Number of companies to be generated:</source>
+               <target>Nombre de sociétés à générer :</target>
+            </trans-unit>
+            <trans-unit id="P1_8" resname="Page1_NumberOfContactsToBeGenerated">
+               <source>Number of contacts by company (Min/Max):</source>
+               <target>Nombre de contacts par société (Min/Max) :</target>
+            </trans-unit>
+            <trans-unit id="P1_12" resname="Page1_Parameters">
+               <source>Parameters</source>
+               <target>Paramètres</target>
+            </trans-unit>
+            <trans-unit id="73" resname="Page1_Generate">
+               <source>Generate</source>
+               <target>Générer</target>
+            </trans-unit>
+            <trans-unit id="70" resname="Page1_Abort">
+               <source>Abort</source>
+               <target>Interrompre</target>
+            </trans-unit>
+         </group>
+         <group id="G02" resname="Page2">
+            <trans-unit id="P2_1" resname="Page2_TextInfos">
+               <source>&quot;B-Tree&quot; type indexes can be used to optimize both queries and sorts.
+
+They are used preferably on fields whose contents are unique or do not repeat frequently. Examples: IDs, last names, dates of birth, etc.
+
+The fields where this is the case are identified by bullets and should thus be given a B-tree index.</source>
+               <target>Les index de type &quot;B-Tree&quot; permettent d&apos;optimiser à la fois les recherches et les tris.
+
+Ils sont à utiliser de préférence sur des champs dont les contenus sont uniques ou à faible occurrence. Exemples : Identifiants uniques, nom de familles, dates de naissances, etc.
+
+Les champs identifiés par des puces sont dans ce cas et doivent donc bénéficier d&apos;un index B-tree.</target>
+            </trans-unit>
+            <trans-unit id="71" resname="Page2_Create">
+               <source>Create B-Tree indexes</source>
+               <target>Créer les index B-Tree</target>
+            </trans-unit>
+            <trans-unit id="72" resname="Page2_Delete">
+               <source>Delete B-Tree indexes</source>
+               <target>Supprimer les index B-Tree</target>
+            </trans-unit>
+         </group>
+         <group id="G03" resname="Page3">
+            <trans-unit id="P3_1" resname="Page3_TextInfos">
+               <source>This page is an example of a simple query based on the name.
+
+It is possible to query either companies or contacts.
+
+The query is of the &quot;starts with&quot; type; you do not have to type the full name in the query area.</source>
+               <target>Cette page est un exemple de recherche simple basée sur le nom.
+
+il est possible de chercher soit des sociétés, soit des contacts.
+
+La recherche est de type &quot;commence par&quot;, vous n&apos;avez donc pas besoin de taper le nom complet dans la zone de recherche.</target>
+            </trans-unit>
+            <trans-unit id="P3_2" resname="Page3_SearchCompanies">
+               <source>Search companies</source>
+               <target>Chercher sociétés</target>
+            </trans-unit>
+            <trans-unit id="74" resname="Page3_SearchContacts">
+               <source>Search contacts</source>
+               <target>Chercher contacts</target>
+            </trans-unit>
+            <trans-unit id="75" resname="Page3_Name">
+               <source>Name:</source>
+               <target>Nom :</target>
+            </trans-unit>
+            <trans-unit id="76" resname="Page3_ShowAll">
+               <source>Show all</source>
+               <target>Tout montrer</target>
+            </trans-unit>
+            <trans-unit id="78" resname="Page3_Contacts">
+               <source>CONTACTS</source>
+               <target>CONTACTS</target>
+            </trans-unit>
+            <trans-unit id="79" resname="Page3_Companies">
+               <source>COMPANIES</source>
+               <target>SOCIÉTÉS</target>
+            </trans-unit>
+            <trans-unit id="71" resname="Page3_PerfAndInfos1">
+               <source>Number of Companies: 
+Number of Contacts:
+Duration of query:
+Duration of sort:</source>
+               <target>Nombre de Sociétés : 
+Nombre de Contacts :
+Temps de recherche :
+temps de tri :</target>
+            </trans-unit>
+            <trans-unit id="72" resname="Page3_PerfAndInfos2">
+               <source>&lt;a1> out of &lt;a2>
+&lt;b1> out of &lt;b2>
+&lt;n1> &lt;Unit1>
+&lt;n2> &lt;Unit2></source>
+               <target>&lt;a1> parmi &lt;a2>
+&lt;b1> parmi &lt;b2>
+&lt;n1> &lt;Unit1>
+&lt;n2> &lt;Unit2></target>
+            </trans-unit>
+            <trans-unit id="73" resname="Page3_SearchName">
+               <source>Name</source>
+               <target>Nom</target>
+            </trans-unit>
+         </group>
+         <group id="G04" resname="Page4">
+            <trans-unit id="P4_1" resname="Page4_TextInfos">
+               <source>&quot;Cluster&quot; type indexes allow you to optimize queries.
+
+They are used preferably on fields that recur regularly. Examples: IDs, last names, dates of birth, etc.
+
+This is typically the case of the &quot;CONTACTS.CompanyID&quot; field whose values are duplicated as many times as there are contacts for each company.
+
+The other fields identified by bullets are in the same case and can therefore also be given &quot;Cluster&quot; type indexes.</source>
+               <target>Les index de type &quot;Cluster&quot; permettent d&apos;optimiser les recherches.
+
+Ils sont à utiliser de préférence sur des champs dont les occurrences reviennent régulièrement. Exemples : Identifiants uniques, nom de familles, dates de naissances, etc.
+
+C&apos;est typiquement le cas du champ &quot;CONTACTS.CompanyID&quot; dont les valeurs sont répliquées autant de fois qu&apos;il y a de contacts dans chaque société.
+
+Les autres champs identifiés par des puces sont dans le même cas et peuvent donc également bénéficier d&apos;un index &quot;Cluster&quot;.</target>
+            </trans-unit>
+            <trans-unit id="P4_2" resname="Page4_Create">
+               <source>Create Cluster indexes</source>
+               <target>Créer les index cluster</target>
+            </trans-unit>
+            <trans-unit id="P4_3" resname="Page4_Delete">
+               <source>Delete Cluster indexes</source>
+               <target>Supprimer les index clusters</target>
+            </trans-unit>
+         </group>
+         <group id="G05" resname="Page5">
+            <trans-unit id="P5_1" resname="Page5_TextInfos">
+               <source>This page is an example of a simple query based on a relation between two tables.
+
+The contacts are linked to the companies by a company ID: this ID is unique in the Companies table (COMPANIES.ID) but is duplicated in each of the contacts (CONTACTS.CompanyID).
+
+This justifies the creation of a &quot;Cluster&quot; type index associated with the &quot;CompanyID&quot; field of the &quot;Contacts&quot; table.
+
+A single or multiple selection in the &quot;Companies&quot; table returns the list of corresponding &quot;Contacts&quot;.</source>
+               <target>Cette page est un exemple de recherche simple basée sur une relation entre deux tables.
+
+Les contacts sont reliés au sociétés par un identifiant de société : cet identifiant est unique dans la table des sociétés (COMPANIES.ID) mais est répliqué dans chacun des contacts (CONTACTS.CompanyID).
+
+Cela justifie la création d&apos;un index de type &quot;Cluster&quot; associé au champ &quot;CompanyID&quot; de la table &quot;Contacts&quot;.
+
+Une sélection simple ou multiple dans la table &quot;Companies&quot; renvoie la liste des &quot;Contacts&quot; correspondants.</target>
+            </trans-unit>
+            <trans-unit id="P5_2" resname="Page5_Select">
+               <source>Select one or more companies to find the corresponding contacts</source>
+               <target>Sélectionnez une ou plusieurs compagnies pour retrouver les contacts correspondants…</target>
+            </trans-unit>
+            <trans-unit id="P5_3" resname="Page5_Animate">
+               <source>Animate</source>
+               <target>Animer</target>
+            </trans-unit>
+            <trans-unit id="P5_4" resname="Page5_HorizontalContatenation">
+               <source>Horizontal concatenation</source>
+               <target>Concaténation horizontale</target>
+            </trans-unit>
+            <trans-unit id="P5_5" resname="Page5_VerticalContatenation">
+               <source>Vertical concatenation</source>
+               <target>Concaténation verticale</target>
+            </trans-unit>
+            <trans-unit id="P5_6" resname="Page5_Superimposition">
+               <source>Superimposition</source>
+               <target>Superposition</target>
+            </trans-unit>
+         </group>
+         <group id="G06" resname="Page6">
+            <trans-unit id="P6_1" resname="Page6_TextInfos">
+               <source>In certain cases, it may be useful to group together two or more fields within a single index.
+
+This type of index is particularly effective when sorting tables on multiple criteria. Examples: last name + first name, state + city, etc.
+</source>
+               <target>Dans certains cas, il peut être utile de regrouper deux champs ou d&apos;avantage au sein d&apos;un index unique.
+
+Ce type d&apos;index est particulièrement efficace lorsqu&apos;il s&apos;agit de trier des tables sur des critères multiples. Exemples : Nom+Prénom, Province+Ville, etc.
+
+</target>
+            </trans-unit>
+            <trans-unit id="37" resname="Page6_Create">
+               <source>Create composite indexes</source>
+               <target>Créer les index composites</target>
+            </trans-unit>
+            <trans-unit id="67" resname="Page6_Delete">
+               <source>Delete composite indexes</source>
+               <target>Supprimer les index composites</target>
+            </trans-unit>
+         </group>
+         <group id="G07" resname="Page7">
+            <trans-unit id="P7_1" resname="Page7_TextInfos">
+               <source>Composite indexes created on the &quot;State+City&quot; fields of the &quot;Companies&quot; table as well as on the &quot;Last name + First name&quot; fields of the &quot;Contacts&quot; table can be used to accelerate sorting.
+
+Thanks to these indexes, you will notice that sorting both these tables takes the same amount of time regardless of whether we use one or two sort criteria!</source>
+               <target>Les index composites créés sur les champs &quot;Province+Ville&quot; de la table &quot;Sociétés&quot; ainsi que sur les champs &quot;Nom+Prénom&quot; de la table &quot;Contacts&quot; permettent d&apos;accélérer les tris.
+
+Grâce à la présence de ces index, vous pourrez constater que le tri de ces deux tables prend le même temps que l&apos;on utilise un seul ou deux critères de tri !</target>
+            </trans-unit>
+            <trans-unit id="P7_2" resname="Page7_OrderByCity">
+               <source>Order by city</source>
+               <target>Trier par ville</target>
+            </trans-unit>
+            <trans-unit id="P7_3" resname="Page7_OrderByStateCity">
+               <source>Order by state + city</source>
+               <target>Trier par province+ville</target>
+            </trans-unit>
+            <trans-unit id="P7_4" resname="Page7_OrderByName">
+               <source>Order by last name</source>
+               <target>Trier par nom</target>
+            </trans-unit>
+            <trans-unit id="69" resname="Page7_OrderByNamefirstname">
+               <source>Order by last name+ first name</source>
+               <target>Trier par nom+prénom</target>
+            </trans-unit>
+         </group>
+         <group id="G08" resname="Page8">
+            <trans-unit id="P8_1" resname="Page8_TextInfos">
+               <source>Indexes to be used on Text type fields will be of the &quot;Keywords&quot; type and will allow rapid queries based on whole words or of the &quot;starts with&quot; type.
+
+Example: a record contains the word &quot;computer&quot;. It will be found…
+
+- If the search criteria is &quot;computer&quot; but not if the word &quot;puter&quot; is searched for.
+- If the search criteria is &quot;starts with&quot; &quot;Comp&quot;.
+
+N.B.: This query is not diacritical (no accented characters) nor case sensitive (upper/lower case).</source>
+               <target>Les index à utiliser pour les champs de type texte seront de type &quot;Mots-clés&quot; et permettront d&apos;effectuer rapidement des recherches par mots complets ou &quot;commençant par…&quot;
+
+Exemple : un enregistrement contient le mot &quot;ordinateur&quot;. Il sera trouvé…
+
+- Si le critère de recherche est &quot;ordinateur&quot; mais ne le sera pas si le mot cherché est &quot;dinat&quot;.
+- Si le critère de recherche est &quot;commence par&quot; &quot;Ordin&quot;.
+
+N.B. : Cette recherche n&apos;est ni diacritique (caractères accentués) ni sensible à la casse (majuscules/minuscules).</target>
+            </trans-unit>
+            <trans-unit id="P8_2" resname="Page8_Create">
+               <source>Create Keywords index</source>
+               <target>Créer l&apos;index mots-clés</target>
+            </trans-unit>
+            <trans-unit id="68" resname="Page8_Delete">
+               <source>Delete Keywords index</source>
+               <target>Supprimer l&apos;index mots-clés</target>
+            </trans-unit>
+         </group>
+         <group id="G09" resname="Page9">
+            <trans-unit id="P9_1" resname="Page9_TextInfos">
+               <source>The comments contained in the &quot;Companies&quot; table have been generated randomly from various texts whose sentences have been mixed together.
+
+You can thus search for common words like &quot;house&quot;, &quot;water&quot;, &quot;sun&quot; and you will probably find several records!
+
+When you select the records found, you will see the comments appear with the word searched for highlighted. </source>
+               <target>Les commentaires contenus dans la table &quot;Compagnies&quot; ont été générés aléatoirement à partir de divers textes dont les phrases ont été mélangées.
+
+Vous pouvez donc chercher des mots courants comme &quot;maison&quot;, &quot;eau&quot;, soleil&quot; et vous trouverez probablement des enregistrements !
+
+En Sélectionnant les enregistrements trouvés, vous verrez apparaitre les commentaires avec le mot cherché surligné. </target>
+            </trans-unit>
+            <trans-unit id="P9_2" resname="Page9_Reset">
+               <source>Reset</source>
+               <target>Réinitialiser</target>
+            </trans-unit>
+            <trans-unit id="P9_3" resname="Page9_GreyScale">
+               <source>Gray scale</source>
+               <target>Niveaux de gris</target>
+            </trans-unit>
+            <trans-unit id="57" resname="Page9_Keyword">
+               <source>Keyword</source>
+               <target>Mot-Clé</target>
+            </trans-unit>
+            <trans-unit id="58" resname="Page9_ExactWord">
+               <source>Exactly matches:</source>
+               <target>Est exactement :</target>
+            </trans-unit>
+            <trans-unit id="59" resname="Page9_StartingWith">
+               <source>Starts with:</source>
+               <target>Commence par :</target>
+            </trans-unit>
+            <trans-unit id="60" resname="Bidon">
+               <source>Marcel</source>
+               <target>Marcel</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

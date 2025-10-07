@@ -1,0 +1,139 @@
+{
+	"destination": "listScreen",
+	"rightMargin": 0,
+	"bottomMargin": 10,
+	"markerBody": 20,
+	"markerBreak": 20,
+	"markerFooter": 20,
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Image2": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 400,
+					"height": 20,
+					"visibility": "selectedRows",
+					"pictureFormat": "tiled",
+					"picture": "Images/Image2.png"
+				},
+				"Image3": {
+					"type": "picture",
+					"top": 87,
+					"left": 463,
+					"width": 400,
+					"height": 20,
+					"visibility": "selectedRows",
+					"sizingX": "grow",
+					"pictureFormat": "tiled",
+					"picture": "Images/Image3.png"
+				},
+				"Champ1": {
+					"type": "input",
+					"top": 2,
+					"left": 3,
+					"width": 150,
+					"height": 16,
+					"visibility": "unselectedRows",
+					"dataSource": "[CONTACTS:6]LastName:3",
+					"stroke": "#000000",
+					"class": "Default",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Champ2": {
+					"type": "input",
+					"top": 1,
+					"left": 3,
+					"width": 150,
+					"height": 18,
+					"visibility": "selectedRows",
+					"dataSource": "[CONTACTS:6]LastName:3",
+					"stroke": "#000000",
+					"fontFamily": "Helvetica Bold",
+					"fontSize": 15,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Champ3": {
+					"type": "input",
+					"top": 2,
+					"left": 158,
+					"width": 74,
+					"height": 16,
+					"visibility": "unselectedRows",
+					"dataSource": "[CONTACTS:6]FirstName:4",
+					"stroke": "#000000",
+					"class": "Default",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Champ4": {
+					"type": "input",
+					"top": 1,
+					"left": 158,
+					"width": 74,
+					"height": 18,
+					"visibility": "selectedRows",
+					"dataSource": "[CONTACTS:6]FirstName:4",
+					"stroke": "#000000",
+					"fontFamily": "Helvetica Bold",
+					"fontSize": 15,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "Vue 1",
+		"defaultView": "Vue 1",
+		"views": {
+			"Vue 1": {},
+			"Vue 2": {},
+			"Vue 3": {},
+			"Vue 4": {},
+			"Vue 5": {},
+			"Vue 6": {},
+			"Vue 7": {},
+			"Vue 8": {},
+			"Vue 9": {}
+		}
+	}
+}

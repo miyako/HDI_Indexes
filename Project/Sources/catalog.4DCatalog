@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="4D Indexes" uuid="A6259CA4D7354161BC37255BB5CC3346" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="COMPANIES" uuid="2132413AC1A248C88AE90EF2435FBB28" id="1" leave_tag_on_delete="true">
+		<field name="ID" uuid="595CD5A48AEB4E318E3DE682571DBBE7" type="4" never_null="true" id="1">
+			<field_extra position="1"/>
+		</field>
+		<field name="Name" uuid="2D25B2517F574A8EABD4ED85AD0D9C42" type="10" limiting_length="80" never_null="true" id="2">
+			<field_extra position="2"/>
+		</field>
+		<field name="Address" uuid="ACCFE62674DF403C9BEBD9AD0C890A56" type="10" never_null="true" id="3">
+			<field_extra position="3"/>
+		</field>
+		<field name="ZipCode" uuid="AD4CD923DBA8466BBBD20CED32981A76" type="10" limiting_length="5" never_null="true" id="4">
+			<field_extra position="4"/>
+		</field>
+		<field name="City" uuid="BA3E2A15C3544D48ADD6739C788BE44B" type="10" limiting_length="80" never_null="true" id="5">
+			<field_extra position="5"/>
+		</field>
+		<field name="Phone" uuid="52AEDA9A5EBB461AB0788E7A98B32464" type="10" limiting_length="20" never_null="true" id="6">
+			<field_extra position="6"/>
+		</field>
+		<field name="Country" uuid="018672BAB4B944218341AA3CD28A1ABC" type="10" limiting_length="255" never_null="true" id="7">
+			<field_extra position="8"/>
+		</field>
+		<field name="State" uuid="2F825AFCBA2D44CAA29371D0D6A2FD46" type="10" limiting_length="255" never_null="true" id="8">
+			<field_extra position="7"/>
+		</field>
+		<field name="Information" uuid="C631E99AB25543ADAD8B476DD08B3758" type="14" never_null="true" id="9"/>
+		<field name="Uuid" uuid="CB9E00E9A0F949A39E667384DF83DD85" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="10"/>
+		<primary_key field_name="Uuid" field_uuid="CB9E00E9A0F949A39E667384DF83DD85"/>
+		<table_extra trigger_insert="true" trigger_update="true" trigger_delete="true" trigger_load="true" input_form="Input" output_form="Output">
+			<editor_table_info displayable_fields_count="10">
+				<color red="157" green="186" blue="255" alpha="255"/>
+				<coordinates left="103" top="22" width="120" height="251.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="CONTACTS" uuid="382EDACF58C54907AABAD6308A711977" id="6" leave_tag_on_delete="true">
+		<field name="ID" uuid="9F31399DA4514A61A3A3973AEC35CDFC" type="4" never_null="true" id="1">
+			<field_extra position="1"/>
+		</field>
+		<field name="CompanyID" uuid="FCE8B5B94FBA49DA8CFE7C2E42D7F2FF" type="4" never_null="true" id="2">
+			<field_extra position="2" visible="false"/>
+		</field>
+		<field name="LastName" uuid="6C54E1B1FEFB41BDA814405B13CFFC2E" type="10" limiting_length="80" never_null="true" id="3">
+			<field_extra position="5"/>
+		</field>
+		<field name="FirstName" uuid="072EA19A12F34CCF89B5D308266128B3" type="10" limiting_length="80" never_null="true" id="4">
+			<field_extra position="4"/>
+		</field>
+		<field name="Adress" uuid="5F8454AD856D4D118735A4E24EC9692E" type="10" never_null="true" id="5">
+			<field_extra position="9"/>
+		</field>
+		<field name="ZipCode" uuid="E4883EB2104F4F3EBAA1F6BAB1FBCDAD" type="10" limiting_length="5" never_null="true" id="6">
+			<field_extra position="10"/>
+		</field>
+		<field name="City" uuid="FABB3DF2D2614A94AD5D5AD2DCBE7B6D" type="10" limiting_length="80" never_null="true" id="7">
+			<field_extra position="11"/>
+		</field>
+		<field name="Phone" uuid="61146AAB931F42389F9921EF999CF6C8" type="10" limiting_length="20" never_null="true" id="8">
+			<field_extra position="14"/>
+		</field>
+		<field name="eMail" uuid="2AE7857BFB8C4040B415095AC9440734" type="10" limiting_length="80" never_null="true" id="9">
+			<field_extra position="15"/>
+		</field>
+		<field name="Title" uuid="945C316AD98B499B8F698542F6A4AEA0" type="10" limiting_length="10" never_null="true" id="10">
+			<field_extra position="3"/>
+		</field>
+		<field name="Birthday" uuid="ED0CACE6067248F4930BA372842E62F5" type="8" never_null="true" id="11">
+			<field_extra position="7"/>
+		</field>
+		<field name="Sex" uuid="2201038904AC4F1F8FFB29FA24D01153" type="1" never_null="true" id="13">
+			<field_extra position="6"/>
+		</field>
+		<field name="Job" uuid="E9B586FEA0404CF0BEDC66CD427757C1" type="10" limiting_length="255" never_null="true" id="14">
+			<field_extra position="16"/>
+		</field>
+		<field name="Department" uuid="BEDA4C560C6F409A91DC8D6FE4712B03" type="10" limiting_length="255" never_null="true" id="15">
+			<field_extra position="17"/>
+		</field>
+		<field name="MaidenName" uuid="B111CD97D84D4897A0260A9BC3802B55" type="10" limiting_length="20" never_null="true" id="16">
+			<field_extra position="8"/>
+		</field>
+		<field name="HireDate" uuid="91A95FCBB40F4E3DA516B42CEB7DC541" type="8" never_null="true" id="17">
+			<field_extra position="18"/>
+		</field>
+		<field name="State" uuid="E1E033EB9BAF4525B6F7ECA3E1C07A6A" type="10" limiting_length="20" never_null="true" id="18">
+			<field_extra position="12"/>
+		</field>
+		<field name="Country" uuid="C48689B08ED14B96A186190296E52067" type="10" limiting_length="20" never_null="true" id="19">
+			<field_extra position="13"/>
+		</field>
+		<field name="Uuid" uuid="4D7458489FCA468197DB68AD7B82D0E7" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="20"/>
+		<primary_key field_name="Uuid" field_uuid="4D7458489FCA468197DB68AD7B82D0E7"/>
+		<table_extra trigger_insert="true" input_form="Input2" output_form="Sortie">
+			<editor_table_info fields_ordering="2" displayable_fields_count="19">
+				<color red="226" green="173" blue="113" alpha="255"/>
+				<coordinates left="308" top="24" width="125" height="440.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="INDEX_SETTINGS" uuid="044431CF0D164B418481D06428002AB7" id="7" leave_tag_on_delete="true">
+		<field name="B_Trees" uuid="D6C458F8FE864BF1AC86479109942D23" type="1" never_null="true" id="1"/>
+		<field name="Clusters" uuid="08B47340719C491C92A78FF951349566" type="1" never_null="true" id="2"/>
+		<field name="Composite" uuid="3CD6B0E95E2C48B9985140E151BFD17D" type="1" never_null="true" id="3"/>
+		<field name="Keywords" uuid="75384941DD854CF989CB2424FA1A445B" type="1" never_null="true" id="4"/>
+		<field name="Uuid" uuid="2E459997143A49DD876999D6949EF2A0" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="5"/>
+		<primary_key field_name="Uuid" field_uuid="2E459997143A49DD876999D6949EF2A0"/>
+		<table_extra input_form="" output_form="">
+			<editor_table_info displayable_fields_count="5">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="670" top="37" width="120" height="147"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<relation uuid="59A93771D68448158C39C6242FBC42B1" name_Nto1="Lien_1" name_1toN="Lien_1_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1" integrity="delete">
+		<related_field kind="source">
+			<field_ref uuid="FCE8B5B94FBA49DA8CFE7C2E42D7F2FF" name="CompanyID">
+				<table_ref uuid="382EDACF58C54907AABAD6308A711977" name="CONTACTS"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="595CD5A48AEB4E318E3DE682571DBBE7" name="ID">
+				<table_ref uuid="2132413AC1A248C88AE90EF2435FBB28" name="COMPANIES"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="255" green="255" blue="255" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<index kind="regular" unique_keys="true" name="pk_index_2" uuid="0CAD87E9BB304AB5A195AAADB7FCCD2B" type="7">
+		<field_ref uuid="CB9E00E9A0F949A39E667384DF83DD85" name="Uuid">
+			<table_ref uuid="2132413AC1A248C88AE90EF2435FBB28" name="COMPANIES"/>
+		</field_ref>
+	</index>
+	<index kind="regular" name="Index_Btree_04" uuid="20F3FCFB62C641A59EBDC7162F101BA9" type="1">
+		<field_ref uuid="6C54E1B1FEFB41BDA814405B13CFFC2E" name="LastName">
+			<table_ref uuid="382EDACF58C54907AABAD6308A711977" name="CONTACTS"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_3" uuid="2BF6E0C4442F4F0797B4C5E63C41F6AD" type="7">
+		<field_ref uuid="4D7458489FCA468197DB68AD7B82D0E7" name="Uuid">
+			<table_ref uuid="382EDACF58C54907AABAD6308A711977" name="CONTACTS"/>
+		</field_ref>
+	</index>
+	<index kind="regular" name="Index_Cluster_01" uuid="2F80ADD25E3848D99AF6FD62D9942BC0" type="3">
+		<field_ref uuid="AD4CD923DBA8466BBBD20CED32981A76" name="ZipCode">
+			<table_ref uuid="2132413AC1A248C88AE90EF2435FBB28" name="COMPANIES"/>
+		</field_ref>
+	</index>
+	<index kind="regular" name="Index_Btree_03" uuid="30D7DB5A0D554236810913F265741F76" type="1">
+		<field_ref uuid="9F31399DA4514A61A3A3973AEC35CDFC" name="ID">
+			<table_ref uuid="382EDACF58C54907AABAD6308A711977" name="CONTACTS"/>
+		</field_ref>
+	</index>
+	<index kind="regular" name="Index_Btree_06" uuid="35130F985CD74965BB910E36E471B3FB" type="1">
+		<field_ref uuid="FABB3DF2D2614A94AD5D5AD2DCBE7B6D" name="City">
+			<table_ref uuid="382EDACF58C54907AABAD6308A711977" name="CONTACTS"/>
+		</field_ref>
+	</index>
+	<index kind="regular" name="Index_Btree_05" uuid="45321728C542484A830B1853417A64FF" type="1">
+		<field_ref uuid="E4883EB2104F4F3EBAA1F6BAB1FBCDAD" name="ZipCode">
+			<table_ref uuid="382EDACF58C54907AABAD6308A711977" name="CONTACTS"/>
+		</field_ref>
+	</index>
+	<index kind="regular" name="Index_Cluster_03" uuid="585BBE337C864318AF3373245D520A65" type="3">
+		<field_ref uuid="2F825AFCBA2D44CAA29371D0D6A2FD46" name="State">
+			<table_ref uuid="2132413AC1A248C88AE90EF2435FBB28" name="COMPANIES"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_1" uuid="5CEAFC1CAFAC433A91226130713BFBFC" type="7">
+		<field_ref uuid="2E459997143A49DD876999D6949EF2A0" name="Uuid">
+			<table_ref uuid="044431CF0D164B418481D06428002AB7" name="INDEX_SETTINGS"/>
+		</field_ref>
+	</index>
+	<index kind="regular" name="Index_Composite_02" uuid="6E30A190F2254FCC947E52B600FDCC7B" type="1">
+		<field_ref uuid="6C54E1B1FEFB41BDA814405B13CFFC2E" name="LastName">
+			<table_ref uuid="382EDACF58C54907AABAD6308A711977" name="CONTACTS"/>
+		</field_ref>
+		<field_ref uuid="072EA19A12F34CCF89B5D308266128B3" name="FirstName">
+			<table_ref uuid="382EDACF58C54907AABAD6308A711977" name="CONTACTS"/>
+		</field_ref>
+	</index>
+	<index kind="regular" name="Index_Composite_01" uuid="8C74156123CD4F64BE00DDCB3AD52644" type="1">
+		<field_ref uuid="2F825AFCBA2D44CAA29371D0D6A2FD46" name="State">
+			<table_ref uuid="2132413AC1A248C88AE90EF2435FBB28" name="COMPANIES"/>
+		</field_ref>
+		<field_ref uuid="BA3E2A15C3544D48ADD6739C788BE44B" name="City">
+			<table_ref uuid="2132413AC1A248C88AE90EF2435FBB28" name="COMPANIES"/>
+		</field_ref>
+	</index>
+	<index kind="keywords" name="Index_Keywords_01" uuid="8D13E527B01B4926B8CFFFBCE893C870" type="3">
+		<field_ref uuid="C631E99AB25543ADAD8B476DD08B3758" name="Information">
+			<table_ref uuid="2132413AC1A248C88AE90EF2435FBB28" name="COMPANIES"/>
+		</field_ref>
+	</index>
+	<index kind="regular" name="Index_Btree_01" uuid="9C29F61964244370AEA1788E994328FD" type="1">
+		<field_ref uuid="595CD5A48AEB4E318E3DE682571DBBE7" name="ID">
+			<table_ref uuid="2132413AC1A248C88AE90EF2435FBB28" name="COMPANIES"/>
+		</field_ref>
+	</index>
+	<index kind="regular" name="Index_Cluster_05" uuid="C98EFC66C4AE4F1CBAE441745946F173" type="3">
+		<field_ref uuid="FCE8B5B94FBA49DA8CFE7C2E42D7F2FF" name="CompanyID">
+			<table_ref uuid="382EDACF58C54907AABAD6308A711977" name="CONTACTS"/>
+		</field_ref>
+	</index>
+	<index kind="regular" name="Index_Cluster_04" uuid="CB0F14580B4B4C2CA7EBF55C28A82F23" type="3">
+		<field_ref uuid="018672BAB4B944218341AA3CD28A1ABC" name="Country">
+			<table_ref uuid="2132413AC1A248C88AE90EF2435FBB28" name="COMPANIES"/>
+		</field_ref>
+	</index>
+	<index kind="regular" name="Index_Btree_02" uuid="E6F67C9B98AE4B48A07B752477C6773C" type="1">
+		<field_ref uuid="2D25B2517F574A8EABD4ED85AD0D9C42" name="Name">
+			<table_ref uuid="2132413AC1A248C88AE90EF2435FBB28" name="COMPANIES"/>
+		</field_ref>
+	</index>
+	<index kind="regular" name="Index_Cluster_02" uuid="F895ACF42FDA471F96F7ED54F158C37B" type="3">
+		<field_ref uuid="BA3E2A15C3544D48ADD6739C788BE44B" name="City">
+			<table_ref uuid="2132413AC1A248C88AE90EF2435FBB28" name="COMPANIES"/>
+		</field_ref>
+	</index>
+	<base_extra data_file_path=":4D Indexes.en.4DD" package_name="4D Indexes" structure_file_name="4D Indexes" is_compiled_database="true" ppc_code_stamp="63">
+		<temp_folder folder_selector="data"/>
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>

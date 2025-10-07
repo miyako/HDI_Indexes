@@ -1,0 +1,23 @@
+{
+	"Formulaires": {
+		"forms": [
+			"[COMPANIES]D_PopulateData",
+			"[COMPANIES]Included_Name",
+			"[COMPANIES]Included_StateCity",
+			"[COMPANIES]Input",
+			"[COMPANIES]Output",
+			"[CONTACTS]Included_FirstLastName",
+			"[CONTACTS]Included_small",
+			"[CONTACTS]Input2",
+			"[CONTACTS]Sortie"
+		]
+	},
+	"Tables": {
+		"tables": [
+			"COMPANIES",
+			"CONTACTS",
+			"INDEX_SETTINGS"
+		]
+	},
+	"trash": {}
+}
